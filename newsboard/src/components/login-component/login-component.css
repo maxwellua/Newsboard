@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.input-wrapper {
+  clear: both;
+  text-align: right;
+  line-height: 25px;
+}
+
+.elements-wrapper {
+  float: left;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  float: left;
+  padding-right: 8px;
+}
+
+button {
+  width: 60px;
+  height: 32px;
+}
+
+.m-10 {
+  margin: 10px;
+}
